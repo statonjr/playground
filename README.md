@@ -6,13 +6,14 @@ Repo created with the [Tux](https://github.com/statonjr/tux) Leiningen template.
 
 ## Usage
 
-Clone the repo, then run:
+- Clone the repo, then run:
 
 ```
 lein cljsbuild auto
 ```
 
-Open `target/index.html` to see the output.
+- Copy `main.css` into `target/main.css`.
+- Open `target/index.html` to see the output.
 
 ## Current Progress
 
