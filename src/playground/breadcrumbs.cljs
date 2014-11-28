@@ -7,7 +7,7 @@
 
 (defn breadcrumbs
   "Creates breadcrumbs from list of labels"
-  [labels]
+  [& labels]
   [:ul.breadcrumbs
    (map #(crumb %) labels)])
 
