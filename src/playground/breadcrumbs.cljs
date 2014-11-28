@@ -2,7 +2,7 @@
 
 (defn crumb
   [label]
-  [:li {:key label}
+  [:li
    [:a {:href "#"} label]])
 
 (defn breadcrumbs
