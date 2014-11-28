@@ -18,7 +18,9 @@
       [:a {:href "#"}
        [:i.icon-plus "Add New"]]]
      [:li
-      [:a {:href "#"}]]
+      [:a {:href "#"} "About"]]
+     [:li
+      [:a {:href "#"} "Contact"]]
      [:li.has-dropdown
       [:a {:href "#"} "Dropdown"]
       [:ul.dropdown

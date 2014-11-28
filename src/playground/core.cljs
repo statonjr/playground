@@ -104,5 +104,4 @@
   (reagent/render-component (fn [] [simple-component])
                             (.-body js/document)))
 
-;; (println "Hello from playground!")
 (render-page)
